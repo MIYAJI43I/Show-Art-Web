@@ -1,0 +1,136 @@
+*{
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background: #F8F5FD;
+}
+
+.About {
+    display: block;
+    padding: 1%;
+
+}
+
+.About .me {
+    text-align: center;
+    color: #A37E7E;
+    
+    
+
+}
+
+.lolo {
+    text-align: center;
+    gap: 50%;
+}
+
+.nema {
+
+    display: inline-block;
+    width: 60%;
+    padding: 6%;
+    margin-left: 14%;
+
+    
+}
+
+.nema img {
+    margin-top: 30%;
+    width: 90px; 
+    height: 90px;
+
+    border-radius: 70%;
+}
+
+.nema h3 {
+    text-align: center;
+    color: #d7a9b1;
+    font-size: 1.5rem;
+    padding: 1%;
+    
+}
+
+.nema span {
+    color: #DFC2C3;
+}
+
+.social-img ul {
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 5%;
+}
+
+.social-img ul li {
+    display: inline-block;
+    background: rgba(189, 148, 148, 0.5);
+    padding: 10px;
+    border-radius: 40%;
+    transition: background 150ms ease-in-out;
+    cursor: pointer;
+}
+
+.social-img ul li a {
+    display: flex;
+    text-decoration: none;
+    color: #A37E7E;
+}
+
+.social-img ul li:hover {
+    opacity: 0.5;
+}
+
+.b {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+
+    
+
+}
+
+button {
+    justify-content: center;
+    margin-left: -50rem;
+    background: rgba(255, 247, 247, 0.686);
+    padding: 15px;
+    border-radius: 8%;
+    cursor: pointer;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.7);
+    border: 0; 
+    position: relative;
+
+    
+     
+    
+}
+
+
+button:hover {
+    opacity: 0.5;
+}
+
+
+@media (max-width: 1000px) {
+
+
+.About {
+    position: relative;
+    margin-left: -34%;
+}
+.lolo {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.b {
+    display: block;
+}
+}
